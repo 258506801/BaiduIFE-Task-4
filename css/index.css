@@ -1,0 +1,39 @@
+body {
+  margin: 0 auto;
+}
+.wrap {
+  width: 400px;
+  height: 200px;
+  background-color: #ccc;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -200px;
+  margin-top: -100px;
+}
+.sector {
+  width: 0px;
+  height: 0px;
+  border-radius: 50px;
+  border: 50px solid transparent;
+  position: absolute;
+  transform: rotate(45deg);
+  /* IE 9 */
+  -ms-transform: rotate(45deg);
+  /* Firefox */
+  -moz-transform: rotate(45deg);
+  /* Safari 和 Chrome */
+  -webkit-transform: rotate(45deg);
+  /* Opera */
+  -o-transform: rotate(45deg);
+}
+.sector-left-top {
+  border-right-color: #fc0;
+  top: -50px;
+  left: -50px;
+}
+.sector-right-buttom {
+  border-left-color: #fc0;
+  right: -50px;
+  bottom: -50px;
+}
